@@ -1,0 +1,35 @@
+.box1 {
+	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-left: 30px;
+	border: solid 1px black;
+	margin: auto;
+	width: 500px;
+	background: linear-gradient(green, blue);
+}
+
+.box2 {
+	padding: 7px;
+	border: solid 2px red;
+	padding-bottom: 10px;
+	padding-top: 70px;
+	padding-right: 90px;
+	padding-left: 30px;
+	margin: auto;
+	width: 600px;
+	background: linear-gradient(red, white);
+}
+
+.box3 {
+	padding: 9px;
+	border: solid 3px blue;
+	padding-bottom: 30px;
+	padding-top: 50px;
+	padding-right: 60px;
+	padding-left: 10px;
+	margin: auto;
+	width: 700px;
+	color: white;
+	background-image: url('../images/pattern.png');
+}

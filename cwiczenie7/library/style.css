@@ -1,0 +1,51 @@
+/* ==========================================================================
+
+// Stylesheet for Build Lesson 7
+// Author: KU MarComm - Dave G
+// Version: 1.0 - Last Updated: May 14, 2018
+
+========================================================================== */
+
+/* MAIN SITE STYLING ===================================================== */
+
+body {
+  background-color: #f4f4f4;
+  font-family: helvetica,arial, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  color: red;
+}
+
+p {
+  font-size: 1em;
+}
+
+#container {
+  width: 90%;
+  margin: 0px auto;
+  padding: 5%;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+}
+
+/* RESPONSIVE STUFF GOES HERE ===================================================== */
+
+@media screen and (max-width: 720px) {
+  .desktop, .tablet {display: none;}
+  .mobile {display: block}
+}
+
+@media screen and (max-width: 1020px) {
+  .mobile, .desktop {display: none;}
+  .tablet {display: block}
+}
+
+@media screen and (max-width: 2160px) {
+  .mobile, .tablet {display: none;}
+  .desktop {display: block}
+}
